@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"/>
+    />
+</head>
+<body class="bg-slate-50 text-black">
+    <header class="bg-slate-100 fixed top-0 left-0 w-full z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a class="font-bold text-2xl">
+                <i class="fas fa-user inline-block h-1 w-10 mr-2"></i>Fatima
+            </a>
+            <div>
+                <button class="focus:outline-none font-normal text-l hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                    <a href="#chat" class="fa fa-comment inline-block h-2 w-17 mr-2">Let's chat</a>
+                </button>
+            </div>
+            <div class="lg:hidden">
+                <button class="focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div class="hidden lg:flex space-x-6 font-normal text-xl">
+                <a href="#home" class="hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">Home</a>
+                <a href="#works" class="hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">Works</a>
+                <a href="#about" class="hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">About</a>
+                <a href="#certifications" class="hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">Certifications</a>
+                <a href="#services" class="hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">Services</a>
+            </div>
+           
+        </nav>
+    </header>
+
+    <main>
+        <!-- home section -->
+        <section id="home" class="h-screen py-20 ">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="text-center items-center justify-center relative">
+                        <div>
+                            <div class="flex flex-col md:flex-row lg:flex-row gap-[10px] ">
+                                <div class="text-4xl lg:text-6l font-bold mb-4 "><p>Hi! I Am </p></div>
+                                <div>
+                                    <button class="text-2xl cursor-pointer rounded-full bg-teal-500 p-1"> Data-Analyst</buton>
+                                </div>
+                            </div>
+                        </div>
+                        <div >
+                            <p class="text-4xl lg:text-6l font-bold mb-4 ">Fatima Isa Musa</p>
+                            <p class="mb-6 font-bold hover:text-teal-500 text-zinc-800 cursor-pointer transition-colors duration-300"> Welcome to my portfolio</p>
+
+                        </div>    
+                        
+                        
+                        <div class="flex flex-row p-5 b-5 place-items-center">
+                            <div class="w-20 h-10 p-2 bg-[red] items-center">
+                                <a href="#" class="cursor-pointer">Hire Me</a>
+                            </div>
+                            <div class="w-20 h-10 p-2 bg-[white] items-center">
+                                <a href="#" class="cursor-pointer">Projects</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                    <div class="relative">
+                        <img
+                          src="data-analysis.jpg"
+                          alt="Landing page Image"
+                          class="w-full h-full object-cover rounded-md shadow-lg mx-auto"
+                          style="width: 500px; height: 500px"
+                        />
+                  <div>
+                </div>
+            </div>        
+        </section>
+
+        <!-- works section -->
+        <section id="works" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Works</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="https://www.senseiprojectsolutions.com/wp-content/uploads/2019/10/04.-Resource-Dashboard-1.png"
+                      alt="Work Item 1"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-xl font-bold mb-2">Resource Dashboard</h3>
+                      <p>
+                        The Resource Dashboard allows managers to easily get an overview of where their resources are allocated to projects, including how many tasks they have; how much work is running late or overdue; the total effort completed and remaining by resource; and how many resources are assigned to each project.
+                      </p>
+                    </div>
+                  </div>
+      
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="https://www.senseiprojectsolutions.com/wp-content/uploads/2019/10/05.-Resource-Assignments-1.png"
+                      alt="Work Item 2"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-xl font-bold mb-2">Resource Assignments</h3>
+                      <p>
+                        The Resource Assignments report allows managers to see the details of the work their people are assigned to. The visuals show the total effort by the resources selected and the effort by project, as well as effort completed and remaining by project manager. The table shows each of the resources selected and expands to show which project they are assigned to, and then expands again to show the detailed tasks.
+                      </p>
+                    </div>
+                  </div>
+      
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="https://www.senseiprojectsolutions.com/wp-content/uploads/2019/10/06.-Task-Overview-1.png"
+                      alt="Work Item 3"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                      <h3 class="text-xl font-bold mb-2">Task Overview</h3>
+                      <p>
+                        The Task Overview report focuses on the detailed tasks across projects and helps identify exceptions in the portfolio with key performance indicators. The visuals allow for additional filtering on ‘Tasks by Status’, ‘Tasks by Project > Bucket’ (drill-down from project to bucket); and ‘Effort by Project > Bucket’ (drill-down from project to bucket)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- about section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div class="relative">
+                        <img
+                          src="Beauty.jfif"
+                          alt="About Image"
+                          class="w-full h-full object-cover rounded-md shadow-lg mx-auto"
+                          style="width: 500px; height: 500px"
+                        />
+                      </div>
+                  <div>
+                    <h2 class="text-3xl font-bold mb-8">About Me</h2>
+                    <p class="mb-6">
+                        As a computer science student delving into data analytics and software development,
+                        I've cultivated a unique skill set that bridges technical knowledge with practical application.
+                        My journey began with foundational programming courses, where I learned languages like Python and Java.
+                        This provided a solid base for developing software solutions.
+                    </p>
+                    <p class="mb-6">
+                        Simultaneously, I explored data analytics, mastering tools such as SQL and Power BI.
+                        Projects like analyzing large datasets to derive insights have honed my analytical 
+                        thinking and problem-solving skills. A standout project involved creating a data visualization
+                        dashboard for a local nonprofit, enabling them to make data-driven decisions, and project replication from YouTubes.
+                    </p>
+                    <p>
+                        This portfolio reflects my commitment to blending software development with data analytics, 
+                        showcasing my ability to turn raw data into actionable insights while developing innovative applications.
+                        I am excited to continue this journey, seeking opportunities to further enhance my skills in both domains.
+                    </p>
+                  </div>
+                 
+                </div>
+              </div>
+
+        </section>
+
+        <!-- certifications section -->   
+         <section id="certifications" class="py-20" >  
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Certificates</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="IMG_6394.PNG"
+                      alt="Certificate 1"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Graphics Design</h3>
+                        <p class="text-gray-400">Issued by SheCode Africa</p>
+                      <p>
+
+                        Graphic design is the art of visual communication, combining images, typography,
+                         and colors to convey messages effectively. It encompasses various mediums, including print, 
+                         digital, and branding. Designers use creativity and technical skills to create visually appealing 
+                         designs that enhance user experience, promote products, and communicate ideas in a clear manner.
+
+                      </p>
+                    </div>
+                  </div>
+      
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="IMG_6395.PNG"
+                      alt="Certificate 2"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">Python Progamming</h3>
+                        <p class="text-gray-400">Issued by Univelcity</p>
+                      <p>
+                        Python is a versatile, high-level programming language known for its readability and simplicity. 
+                        Widely used in web development, data analysis, artificial intelligence, and automation, it supports 
+                        multiple programming paradigms. With a rich ecosystem of libraries and frameworks, Python empowers
+                         developers to create efficient solutions across various domains quickly and effectively.
+                      </p>
+                    </div>
+                  </div>
+      
+                  <div class="bg-slate-100 shadow-lg rounded-md shadow-lg overflow-hidden">
+                    <img
+                      src="Picture1.png"
+                      alt="Certificate 3"
+                      class="w-full h-50 object-cover"
+                    />
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">AI/Robotics Summit</h3>
+                        <p class="text-gray-400">Issued by ncs</p>
+                      <p>
+                        AI and robotics involve the integration of artificial intelligence into robotic
+                         systems to enhance automation and decision-making. AI enables robots to learn, adapt, 
+                         and perform complex tasks autonomously. This synergy improves efficiency in industries 
+                         like manufacturing, healthcare, and logistics, revolutionizing processes and transforming 
+                         the future of work and daily life.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+        <!-- services section -->
+        <section id="services" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Services</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <button class="text-2xl cursor-pointer rounded-full bg-teal-500 p-1"> Data Analysis</buton>
+                    </div>
+                    <div>
+                        <button class="text-2xl cursor-pointer rounded-full bg-teal-500 p-1"> Python programming</buton>
+                    </div>
+                    <div>
+                        <button class="text-2xl cursor-pointer rounded-full bg-teal-500 p-1">Graphic Design</buton>
+                    </div>
+                    <div>
+                        <button class="text-2xl cursor-pointer rounded-full bg-teal-500 p-1">Frontend Development</buton>
+                    </div>
+                </div>
+            </div>    
+
+        </section>
+
+       
+        <section id="chat" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Let's Chat</h2>
+                <form class="max-w-md mx-auto">
+                  <div class="mb-4">
+                    <label for="name" class="block font-medium mb-2">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="w-full bg-slate-100 border-black rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500"
+                      required
+                    />
+                    
+                    
+                  </div>
+                  <div class="mb-4">
+                    <label for="gender" class="block font-medium mb-2">Gender</label>
+
+                      <select class="w-full bg-slate-100 border-black rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500"  name="Gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Others">Preferred not to say</option>
+                    </select>
+                </div>
+                  <div class="mb-4">
+                    <label for="email" class="block font-medium mb-2">Email (if you wish to save a response)</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="w-full bg-slate-100 border-black rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500"
+                    />
+                  </div>
+                  <div class="mb-4 ">
+                    <label for="message" class="block font-medium mb-2"
+                      >Message</label
+                    >
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      class="w-full bg-slate-100 border-black rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="mb-4">
+                    <label for="email" class="block font-medium mb-2">Complete action using</label>
+                    <button class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                        <a href="https://accounts.google.com.ng" class="fa-brands fa-google inline-block h-1 w-10 "></a>Gmail
+                    </button>
+                    <button class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                        <a href="https://web.whatsapp.com/" class="fa-brands fa-whatsapp inline-block h-1 w-10 "></a>Whatsapp
+                    </button>
+                    <button class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                        <a href="https://instagram.com" class="fa-brands fa-instagram inline-block h-1 w-10 "></a>Instagram
+                    </button>
+                    <button class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                        <a href="https://linkedin.com" class="fab fa-linkedin-in inline-block h-1 w-10 "></a>Linkedin
+                    </button>
+                    <button class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300">
+                        <a href="https://github.com" class="fab fa-github inline-block h-1 w-10 "></a>GitHub
+                    </button>
+                </div>
+
+                <button
+                type="submit"
+                class="w-full bg-slate-100 hover:bg-gray-600 text-gray-200 font-medium py-2 px-4 rounded-md transition-colors duration-300"
+                >
+              Send Message
+                </button>
+            </form>
+        </div>    
+                
+        </section>
+    </main>
+
+   
+
+    <footer class="bg-slate-100 w-full z-50 shadow-inner py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+          <p class="text-gray-400">
+            &copy; 2024 WebDeveloper All rights reserved.
+          </p>
+          <div class="space-x-4">
+            <a
+              href="#"
+              class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="#"
+              class="focus:outline-none font-normal text-xl hover:text-gray-950 text-zinc-400 cursor-pointer transition-colors duration-300"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
